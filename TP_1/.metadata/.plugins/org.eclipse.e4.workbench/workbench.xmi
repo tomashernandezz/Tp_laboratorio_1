@@ -65,10 +65,10 @@
           <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
           <tags>persp.viewSC:org.eclipse.cdt.make.ui.views.MakeView</tags>
           <tags>persp.actionSet:org.eclipse.cdt.make.ui.makeTargetActionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_NJZ6QcZrEey8_MQ1DAO_uQ" selectedElement="_NJZ6QsZrEey8_MQ1DAO_uQ" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_NJZ6QsZrEey8_MQ1DAO_uQ" elementId="topLeft" containerData="2500" selectedElement="_NJZ6Q8ZrEey8_MQ1DAO_uQ">
-              <tags>active</tags>
-              <children xsi:type="advanced:Placeholder" xmi:id="_NJZ6Q8ZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_NJNF8MZrEey8_MQ1DAO_uQ" closeable="true">
+          <tags>persp.actionSet:eclox.ui.buildActionSet</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_NJZ6QcZrEey8_MQ1DAO_uQ" selectedElement="_NJZ6RsZrEey8_MQ1DAO_uQ" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_NJZ6QsZrEey8_MQ1DAO_uQ" elementId="topLeft" toBeRendered="false" containerData="2500">
+              <children xsi:type="advanced:Placeholder" xmi:id="_NJZ6Q8ZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" toBeRendered="false" ref="_NJNF8MZrEey8_MQ1DAO_uQ" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
               </children>
@@ -81,10 +81,11 @@
                 <tags>categoryTag:General</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_NJZ6RsZrEey8_MQ1DAO_uQ" containerData="7500">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_NJZ6R8ZrEey8_MQ1DAO_uQ" containerData="7500" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_NJZ6RsZrEey8_MQ1DAO_uQ" containerData="7500" selectedElement="_NJZ6R8ZrEey8_MQ1DAO_uQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_NJZ6R8ZrEey8_MQ1DAO_uQ" containerData="7500" selectedElement="_NJZ6ScZrEey8_MQ1DAO_uQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_NJZ6SMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_NJCG0MZrEey8_MQ1DAO_uQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_NJZ6ScZrEey8_MQ1DAO_uQ" elementId="topRight" containerData="2500" selectedElement="_NJZ6SsZrEey8_MQ1DAO_uQ">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_NJZ6SsZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_NJRXYMZrEey8_MQ1DAO_uQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -176,8 +177,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1651092430955&quot; org.eclipse.cdt.ui.cview.groupincludes=&quot;false&quot; org.eclipse.cdt.ui.cview.groupmacros=&quot;false&quot; org.eclipse.cdt.ui.editor.CUChildren=&quot;true&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_NOXSwMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -232,6 +231,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_NYNLQMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.views.ContentOutline">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -264,7 +265,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NBlbAMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_7XLosNJFEeyPvPKtYaFtNQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_MhUmn8ZrEey8_MQ1DAO_uQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZHiQwOm4Eeys67bDxV3LJA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_MhUmn8ZrEey8_MQ1DAO_uQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NBlbAcZrEey8_MQ1DAO_uQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -295,7 +296,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NBmpIMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_7XTkgNJFEeyPvPKtYaFtNQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_MhTYgsZrEey8_MQ1DAO_uQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZHnwUOm4Eeys67bDxV3LJA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_MhTYgsZrEey8_MQ1DAO_uQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_NBnQMMZrEey8_MQ1DAO_uQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -757,6 +758,7 @@
   <bindingTables xmi:id="_NJKCocZrEey8_MQ1DAO_uQ" bindingContext="_NJKCoMZrEey8_MQ1DAO_uQ"/>
   <bindingTables xmi:id="_NJKpsMZrEey8_MQ1DAO_uQ" bindingContext="_NJKCosZrEey8_MQ1DAO_uQ"/>
   <bindingTables xmi:id="_NJKpssZrEey8_MQ1DAO_uQ" bindingContext="_NJKpscZrEey8_MQ1DAO_uQ"/>
+  <bindingTables xmi:id="_ZD0OYem4Eeys67bDxV3LJA" bindingContext="_ZD0OYOm4Eeys67bDxV3LJA"/>
   <rootContext xmi:id="_Mgtim8ZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_MgtinMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_MgtincZrEey8_MQ1DAO_uQ" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -849,6 +851,7 @@
   <rootContext xmi:id="_NJKCoMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.WorkingSetActionSet" name="Auto::org.eclipse.ui.WorkingSetActionSet"/>
   <rootContext xmi:id="_NJKCosZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.actionSet.openFiles" name="Auto::org.eclipse.ui.actionSet.openFiles"/>
   <rootContext xmi:id="_NJKpscZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation" name="Auto::org.eclipse.ui.edit.text.actionSet.presentation"/>
+  <rootContext xmi:id="_ZD0OYOm4Eeys67bDxV3LJA" elementId="eclox.ui.buildActionSet" name="Auto::eclox.ui.buildActionSet"/>
   <descriptors xmi:id="_MqMOsMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
     <tags>removeOnHide</tags>
@@ -2451,6 +2454,8 @@
   <commands xmi:id="_M8WVscZrEey8_MQ1DAO_uQ" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.togglesplitpane" commandName="Toggle Split Pane" description="Toggle Split Pane" category="_MhN46sZrEey8_MQ1DAO_uQ"/>
   <commands xmi:id="_M8W8wMZrEey8_MQ1DAO_uQ" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.switchMemoryBlock" commandName="Switch Memory Monitor" description="Switch Memory Monitor" category="_MhN46sZrEey8_MQ1DAO_uQ"/>
   <commands xmi:id="_M8W8wcZrEey8_MQ1DAO_uQ" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.memoryViewPreferencesAction" commandName="Preferences..." description="&amp;Preferences..." category="_MhN46sZrEey8_MQ1DAO_uQ"/>
+  <commands xmi:id="_YubNMOm4Eeys67bDxV3LJA" elementId="eclox.ui.commands.build" commandName="Build" category="_YuZ_Eem4Eeys67bDxV3LJA"/>
+  <commands xmi:id="_ZCFwEOm4Eeys67bDxV3LJA" elementId="AUTOGEN:::eclox.ui.buildActionSet/eclox.ui.buildAction" commandName="Doxygen Build" description="Build Doxyfile" category="_MhN46sZrEey8_MQ1DAO_uQ"/>
   <addons xmi:id="_Mgtin8ZrEey8_MQ1DAO_uQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_MgtioMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_MgtiocZrEey8_MQ1DAO_uQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2462,7 +2467,7 @@
   <addons xmi:id="_Mgtip8ZrEey8_MQ1DAO_uQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_MgtiqMZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_Mg4hsMZrEey8_MQ1DAO_uQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_7EQFodJFEeyPvPKtYaFtNQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_MhNR0MZrEey8_MQ1DAO_uQ" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_MhNR0cZrEey8_MQ1DAO_uQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
@@ -2512,4 +2517,5 @@
   <categories xmi:id="_MhN468ZrEey8_MQ1DAO_uQ" elementId="org.eclipse.linuxtools.tmf.ui.commands.parser.category" name="Parser Commands" description="Parser Commands"/>
   <categories xmi:id="_MhN47MZrEey8_MQ1DAO_uQ" elementId="org.eclipse.cdt.debug.ui.category.tracing" name="Tracing Commands" description="Category for Tracing Commands"/>
   <categories xmi:id="_MhN47cZrEey8_MQ1DAO_uQ" elementId="org.eclipse.cdt.managedbuilder.ui.category.build" name="C/C++ Build" description="C/C++ Build Actions"/>
+  <categories xmi:id="_YuZ_Eem4Eeys67bDxV3LJA" elementId="eclox.ui.commands.category" name="Eclox"/>
 </application:Application>

@@ -23,7 +23,7 @@
 
 int main()
 {
-	setbuf(stdout,NULL);
+	  setbuf(stdout,NULL);
 
     int option = 0;
     int flagLoadText = 0;
