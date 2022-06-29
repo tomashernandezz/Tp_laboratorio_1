@@ -2,14 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "arrayPassengers.h"
-#define TAM 2000
+#include "nexo.h"
 
 int main(void)
 {
 	setbuf(stdout, NULL);
 	int opcion;
-	int id;
 	int contadorPasajeros;
 	int retornoEstado;
 	int suma;
@@ -19,8 +17,8 @@ int main(void)
 	int cargaForzadaContador = 0;
 	contadorPasajeros = 0;
 	Passenger listaPassengers[TAM];
-	typePassenger typeList[3] = {{1, "TURISTA"} , {2, "PRIMERA CLASE"} , {3, "ECONOMICO"}};
-	statusFlight statusList[3] = {{1, "ACTIVO"} , {2, "DEMORADO"} , {3, "ESTIMA"}};
+	typePassenger typeList[TAMTYPE] = {{1, "TURISTA"} , {2, "PRIMERA CLASE"} , {3, "ECONOMICO"}};
+	statusFlight statusList[TAMSTATUS] = {{1, "ACTIVO"} , {2, "DEMORADO"} , {3, "ESTIMA"}};
 
 	InitPassengers(listaPassengers,TAM);
 
@@ -40,6 +38,7 @@ int main(void)
 		case 2:
 			if(contadorPasajeros>0)
 			{
+				PrintPassenger(listaPassengers, TAM, statusList, TAMSTATUS, typeList, TAMTYPE);
 				ModificarPassenger(listaPassengers, TAM);
 			}
 			else
@@ -53,9 +52,8 @@ int main(void)
 		case 3:
 			if(contadorPasajeros>0)
 			{
-				printf("Ingresar el ID que busca:\n");
-				scanf("%d",&id);
-				retornoEstado = RemovePassenger(listaPassengers, TAM, id);
+				PrintPassenger(listaPassengers, TAM, statusList, TAMSTATUS, typeList, TAMTYPE);
+				retornoEstado = RemovePassenger(listaPassengers, TAM);
 				if(retornoEstado==-1)
 				{
 					contadorPasajeros--;
@@ -108,7 +106,7 @@ int main(void)
 					{
 						sortPassengersbyFlyCode(listaPassengers,TAM,orden);
 						printf("ID=====NOMBRE=====APELLIDO======PRECIO====CODIGO DE VUELO==TIPO DE VUELO===ESTADO DE VUELO\n");
-						PrintPassenger(listaPassengers, TAM, statusList, 4, typeList, 3);
+						PrintPassenger(listaPassengers, TAM, statusList, TAMSTATUS, typeList, TAMTYPE);
 						printf("=======================================================================================\n\n\n");
 					}
 					else
